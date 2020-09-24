@@ -4,7 +4,7 @@ import Calculate from '../others/calculate';
 
 const mystyle = {
     color: "white",
-    backgroundColor: "DodgerBlue",
+    backgroundColor: "lightseagreen",
     padding: "13px",
     fontFamily: "Arial",
     marginBottom: "20px",
