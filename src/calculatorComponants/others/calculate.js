@@ -11,6 +11,7 @@ function Calculate(value, setResult) {
   console.log(value);
   
   let expression = array.join("")
+  
   if (value ==='=')
   {
     console.log("=");
@@ -20,14 +21,17 @@ function Calculate(value, setResult) {
     expression = array.join("");
    setResult(expression);
   }
+  else if(value ==='clear')
+  {
+    array=[];
+    expression = array.join("");
+   setResult(expression);
+  }
   else{
     array.push(value);
     expression = array.join("");
    setResult(expression);
   }
-
-
-  // <Text value = "2222"/>
 }
 
 export default Calculate;
